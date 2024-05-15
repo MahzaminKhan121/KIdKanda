@@ -1,0 +1,609 @@
+/* common code */
+*{
+	box-sizing: border-box;
+}
+
+body{
+	width: 100%;
+	margin: 0px auto;
+}
+.container{
+	width: 92%;
+	margin: 0px auto;
+}
+
+/* common code */
+
+/* nav sec start */
+nav{
+	height: 80px;
+	width: 100%;
+	background: #FFFFFF;
+}
+nav-area{
+	height: 100%;
+}
+
+
+.navbar-brand{
+	width:30%;
+	height: 100%;
+	float: left;
+}
+.navbar-brand img{
+	width: 22%;
+	height: 88%;
+	float: left;
+	margin-left: 0px;
+}
+.navbar-brand h1{
+	float: left;
+	color: rgb(23, 162, 184);
+	font-size: 43px;
+	font-weight: 900;
+	line-height: 0px;
+	font-family: "Nunito", sans-serif;
+}
+.navbar{
+	width: 60%;
+	height: 100%;
+	float: left;
+}
+.navbar ul{
+	margin: 0px;
+	float: left;
+	margin: 20px;
+	padding: 0px;
+}
+.navbar ul li{
+	list-style: none;
+	margin: 2px 5px;
+	float: left;
+	float: left;
+}
+.navbar ul li a{
+	color: rgb(23, 162, 184);
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 24px;
+	font-family: "Nunito", sans-serif;
+	margin: 15px 10px;
+	text-decoration: none;
+}
+.navbar-button{
+	width: 10%;
+	height: 100%;
+	float: left;
+}
+.navbar-button a{
+	color: white;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 24px;
+	font-family: "Nunito", sans-serif;
+	background: #17A2B8;
+	padding: 5px 16px ;
+    margin-top: 14px;
+	display: inline-block;
+	border-radius: 24px;
+	text-decoration: none;
+}
+.navbar-button a:hover{
+	background-color: #138496;
+}
+
+/* nav sec end */
+
+/* header sec start */
+header{
+	height: 600px;
+	width: 100%;
+	background: #17A2B8;
+}
+.header-area{
+	height: 100%;
+}
+.header-content{
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+.header-content h3{
+	color: white;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 5px;
+	font-family: "Nunito", sans-serif;
+}
+.header-content h1{
+	color: white;
+	font-size: 72px;
+	font-weight: 700;
+	line-height: 72px;
+	font-family: "Nunito", sans-serif;
+}.header-content p{
+	color: white;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 20px;
+	font-family: "Nunito", sans-serif;
+}.header-content a{
+	color: white;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 50px;
+	font-family: "Nunito", sans-serif;
+	background: #00394F;
+	padding: 16px 40px;
+    border-radius: 30px;
+	text-decoration: none;
+}
+.header-content a:hover {
+  background-color: #001D29;
+}
+.header-poster{
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+.header-poster img{
+	width: 90%;
+}
+.header-about p{
+	color: rgb(255, 255, 255);
+	font-size: 60px;
+	font-weight: 900;
+	line-height: 86px;
+	font-family: "Handlee", cursive;
+	text-align: center;
+	margin-top: 120px;
+}
+.header-home a{
+	color: rgb(255, 255, 255);
+	font-size: 13px;
+	font-weight: 800;
+	line-height: 24px;
+	font-family: "Nunito", sans-serif;
+	text-decoration: none;
+	margin-left: 465px;
+}
+.header-home small{
+	color: rgb(255, 255, 255);
+	font-size: 16px;
+	font-weight: 800;
+	line-height: 24px;
+	font-family: "Nunito", sans-serif;
+	
+}
+/* header sec end */
+
+
+/* about-us sec start */
+
+/* about-us picture */
+
+.about-us{
+	height: 630px;
+	width: 100%;
+}
+.about-us-area{
+	height: 100%;
+}
+.about-us-picture{
+	width: 45%;
+	height: 100%;
+	float: left;
+}
+.about-us-picture img{
+	height: 615px;
+	width: 100%;
+	padding: 75px 32px;
+}
+.about-us-content{
+	width: 55%;
+	height: 100%;
+	float: left;
+}
+
+/* about-us content */
+
+/* learn-about-us */
+.learn-about-us{
+	width: 100%;
+	height: 50%;
+	float: left;
+}
+.learn-about-us hr{
+	  border-top: 4px solid #17A2B8;
+	  width: 50%;
+	  margin: 0px;
+}
+.learn-about-us p{
+	color: rgb(23, 162, 184);
+	font-size: 16px;
+	font-weight: 650;
+	line-height: 24px;
+	font-family: "Nunito", sans-serif;
+	display: inline-block;
+	background: white;
+    margin: 120px 0px 13px 0px;
+}
+.learn-about-us h1{
+	color: rgb(0, 57, 79);
+	font-size: 40px;
+	font-weight: 750;
+	line-height: 10px;
+	font-family: "Handlee", cursive;
+	margin: 19px 0px 0px 0px;
+}
+.learn-about-us small{
+	color: rgb(102, 102, 102);
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 24px;
+	font-family: "Nunito", sans-serif;
+	margin: 38px 0px 0px 0px;
+    display: inline-block;
+}
+
+/* learn-more */
+.learn-more{
+	width: 100%;
+	height: 50%;
+	float: left;
+}
+.learn-more-picture{
+	width: 35%;
+	height: 40%;
+	float: left;
+}
+.learn-more-picture img{
+	height:100%;
+	border-radius: 5px;
+}
+.learn-more-text{
+	width: 65%;
+	height: 40%;
+	float: left;
+}
+.learn-more-text ul{
+	
+}
+.learn-more-text ul li{
+	color: rgb(102, 102, 102);
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 24px;
+	font-family: "Nunito", sans-serif;
+	list-style: none;
+	margin: 0px 0px 8px 0px;
+}
+.learn-more-text ul li i{
+	color: rgb(23, 162, 184);
+}
+.learn-more-button{
+	width: 100%;
+	height: 50%;
+	float: left;
+}
+.learn-more-button a{
+	color: rgb(255, 255, 255);
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 24px;
+	font-family: "Nunito", sans-serif;
+	text-decoration: none;
+	background: #17A2B8;
+	padding: 5px 16px;
+	border-radius: 24px;
+	margin-top: 25px;
+    display: inline-block;
+}
+.learn-more-button a:hover{
+  background-color: #00394F;
+}
+/* about-us sec end */
+
+
+/* extra-curricular sec start */
+.extra-curricular{
+	height: 350px;
+	width: 100%;
+}
+.extra-curricular-area{
+	height: 100%;
+}
+
+/* single item start */
+.content-part{
+	width: 30%;
+	height: 45%;
+	float: left;
+	margin-right: 30px;
+	margin-bottom: 30px;
+	background: #F8F9FA;
+	border-radius: 7px;
+}
+.content-part h1{
+	color: rgb(0, 57, 79);
+	font-size: 24px;
+	font-weight: 750;
+	line-height: 29px;
+	font-family: "Handlee", cursive;
+}
+.content-part p{
+	color: rgb(102, 102, 102);
+	font-size: 16px;
+	font-weight: 650;
+	line-height: 24px;
+	font-family: "Nunito", sans-serif;
+}
+/* single item end */
+
+
+/* teachers sec start */
+.teachers{
+	height: 500px;
+	width: 100%;
+}
+.teachers-area{
+}
+.meet-our-teachers{
+	height: 35%;
+	width: 100%;
+}
+.meet-our-teachers p{
+	color: rgb(23, 162, 184);
+	font-size: 16px;
+	font-weight: 650;
+	line-height: 24px;
+	font-family: "Nunito", sans-serif;
+	text-align: center;
+	display: block;
+    margin-top: 80px;
+}
+.meet-our-teachers h1{
+	color: rgb(0, 57, 79);
+	font-size: 40px;
+	font-weight: 750;
+	line-height: 30px;
+	font-family: "Handlee", cursive;
+	text-align: center;
+}
+.teachers-area{
+	height: 65%;
+	width: 100%;
+}
+.teachers-area h1{
+	
+}
+
+/* single item start */
+.teachers-pic{
+	height: 65%;
+	width: 20%;
+	float: left;
+	margin: 25px 20px 0px 30px;
+}
+.teachers-pic img{
+	height: 100%;
+	width: 100%;
+	border-radius: 100px;
+}
+/* single item end */
+/* teachers sec end */
+
+/* extra-curricular sec end */
+
+
+/* footer sec start */
+footer{
+	width: 100%;
+	height: 385px;
+	float: left;
+	background: #00394F;
+}
+.footer-area{
+	
+}
+/*-- footer-kidkinder --*/
+
+.footer-kidkinder{
+	width: 25%;
+	height: 100%;
+	float: left;
+	
+}
+.footer-kidkinder h1{
+	color: rgb(23, 162, 184);
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 40px;
+	font-family: "Nunito", sans-serif;
+}
+
+.footer-kidkinder p {
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    font-family: "Nunito", sans-serif;
+    text-align: justify;
+    padding-right: 40px;
+    margin-top: -10px;
+}
+.footer-kidkinder .fa-facebook{
+	color: rgb(255, 255, 255);
+	font-size: 28px;
+	font-weight: 400;
+	line-height: 24px;
+	border-radius: 9px;
+}
+.fa-facebook:hover {
+  background-color: #17A2B8;
+}
+.footer-kidkinder .fa-square-twitter{
+	color: rgb(255, 255, 255);
+	font-size: 28px;
+	font-weight: 400;
+	line-height: 24px;
+	margin: 10px;
+	border-radius: 9px;
+}
+.fa-square-twitter:hover {
+  background-color: #17A2B8;
+}
+.footer-kidkinder .fa-instagram{
+	color: rgb(255, 255, 255);
+	font-size: 28px;
+	font-weight: 400;
+	line-height: 24px;
+	margin-right: 10px;
+	border-radius: 9px;
+}
+.fa-instagram:hover {
+  background-color: #17A2B8;
+}
+.footer-kidkinder .fa-google-plus{
+	color: rgb(255, 255, 255);
+	font-size: 28px;
+	font-weight: 400;
+	line-height: 24px;
+	border-radius: 9px;
+	margin-right: 10px;
+}
+.fa-google-plus:hover {
+  background-color: #17A2B8;
+}
+
+/*-- footer-get-in-touch --*/
+.footer-get-in-touch{
+	width: 25%;
+	height: 100%;
+	float: left;
+}
+.footer-get-in-touch h1{
+	color: rgb(23, 162, 184);
+	font-size: 28px;
+	font-weight: 700;
+	line-height: 34px;
+	font-family: "Handlee", cursive;
+}
+.footer-get-in-touch h3{
+	color: white;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 24px;
+	font-family: "Handlee", cursive;
+}
+.footer-get-in-touch span{
+	color: white;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 20px;
+	font-family: "Nunito", sans-serif;
+	padding: 5px 0px 5px 0px;
+	margin-left: 30px;
+}
+.fa-location-dot{
+	color: rgb(23, 162, 184);
+	font-size: 24px;
+	font-weight: 900;
+	padding-right: 10px;
+}
+.fa-envelope{
+	color: rgb(23, 162, 184);
+	font-size: 24px;
+	font-weight: 900;
+	padding-right: 10px;
+}
+.fa-square-phone{
+	color: rgb(23, 162, 184);
+	font-size: 24px;
+	font-weight: 900;
+	padding-right: 10px;
+}
+/*-- footer-links --*/
+
+.footer-links{
+	width: 25%;
+	height: 100%;
+	float: left;
+}
+.footer-links h1{
+	color: rgb(23, 162, 184);
+	font-size: 28px;
+	font-weight: 700;
+	line-height: 34px;
+	font-family: "Handlee", cursive;
+}
+.footer-links ul{
+	list-style: none;
+	padding: 0px;
+	
+}
+.footer-links li a{
+	color: white;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 24px;
+	font-family: "Nunito", sans-serif;
+	text-decoration: none;
+}
+
+/*-- footer-newsletter --*/
+
+.footer-newsletter{
+	width: 25%;
+	height: 100%;
+	float: left;
+}
+.footer-newsletter h1{
+	color: rgb(23, 162, 184);
+	font-size: 28px;
+	font-weight: 700;
+	line-height: 34px;
+	font-family: "Handlee", cursive;
+}
+.footer-newsletter input{
+	width: 200px;
+	height: 45px;
+	margin-bottom: 10px; 
+	border-radius: 5px;
+}
+.inp{
+	height: 50px !important;
+	background: #17A2B8;
+	border-radius: 25px !important;
+ 
+}
+
+.small-footer{
+	background: #00394F;
+	width: 100%;
+	height: 65px;
+	text-align: center;
+	
+}
+.small-footer a{
+	color: #17A2B8;
+	font-size: 16px;
+	font-weight: 700;
+	font-family: "Nunito", sans-serif;
+	display: inline;
+	text-decoration: none;
+	
+}
+.small-footer p{
+	color: white;
+	font-size: 16px;
+	font-weight: 700;
+	font-family: "Nunito", sans-serif;
+	display: inline;
+}
+.small-footer .content{
+	margin-top: 385px;
+}
+/* footer sec end */
+
+.footer-area
